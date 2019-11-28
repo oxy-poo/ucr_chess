@@ -24,6 +24,7 @@
 		<div class="MainPage">
 			<div class="UCRChessClubHeader" id="CHESSCLUB">C&nbsp;&nbsp;H&nbsp;&nbsp;E&nbsp;&nbsp;S&nbsp;&nbsp;S&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C&nbsp;&nbsp;L&nbsp;&nbsp;U&nbsp;&nbsp;B</div>
 			<div class="UCRChessClubHeader" id="atUCR">@UCR</div>
+			<a href="rankings.php">rankings</a>
 			<?php
 				echo("Hello world");
 			?>

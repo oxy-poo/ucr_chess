@@ -2,7 +2,8 @@ body {
 	/*background: url(../images/ucrchessclublogo.png);
 	background-repeat: no-repeat;
 	background-size:auto;*/
-	margin: 0px;
+	margin: 0 0 -16px 0;
+	padding: 0px;
 }
 
 div#testparent {
@@ -11,8 +12,10 @@ div#testparent {
 }
 
 div.MainPage {
-	margin-top: 45px;
-	background: url(../images/purplebackgroundmid.png) no-repeat top center;
+	margin: 0px;
+	margin-top: 44px;
+	padding: 0px;
+	background: url(../images/pinkbackgroundmid.png) no-repeat top center;
 	background-size: cover;
 }
 
@@ -32,7 +35,10 @@ div.NavbarElement {
 	text-align: center;
 	font-size: 31px;
 	font-family: "Roboto Slab";
+	background-color: #efefef;
 	float:left;
+	transition: background-color 0.2s;
+	transition-timing-function: cubic-bezier(0, 0, 0, 1);
 }
 
 div.NavbarElement#ClubLogo {
@@ -40,13 +46,13 @@ div.NavbarElement#ClubLogo {
 	background-size: auto 100%;
 }
 
-div.NavbarElement:hover {
-	background-color: #9f9f9f;
-}
+/*div.NavbarElement:hover {
+	background-color: #dfdfdf;
+}*/
 
 div.UCRChessClubHeader {
 	font-family: 'Montserrat';
-	color: #efefef;
+	color: #2f2f2f;
 	text-align: center;
 }
 
