@@ -1,6 +1,6 @@
-# ucr_chess
+# ucr_checkers
 
-UCR Chess Club Website
+UCR Chesse Club Website
 
 ## What is done so far
 
