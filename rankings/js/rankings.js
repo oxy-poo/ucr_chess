@@ -1,0 +1,1 @@
+console.log("rankings js read");
