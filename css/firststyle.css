@@ -1,21 +1,3 @@
-body {
-  /*background: url(../images/ucrchessclublogo.png);
-	background-repeat: no-repeat;
-	background-size:auto;*/
-  margin: 0px;
-}
-
-div#testparent {
-  color: red;
-  border: 1px solid red;
-}
-
-div.MainPage {
-  margin-top: 45px;
-  background: url(../images/pinkbackgroundmid.png) no-repeat top center;
-  background-size: cover;
-}
-
 div#Navbar {
   position: fixed;
   top: 0px;
@@ -36,7 +18,7 @@ div.NavbarElement {
 }
 
 div.NavbarElement#ClubLogo {
-  background: url(../images/ucrchessclublogo.png) no-repeat top center;
+  background: url(../images/checkmate.PNG) no-repeat top center;
   background-size: auto 100%;
 }
 
@@ -50,13 +32,6 @@ div.UCRChessClubHeader {
   text-align: center;
 }
 
-div.UCRChessClubHeader#CHESSCLUB {
-  font-size: 100px;
-}
-
-div.UCRChessClubHeader#atUCR {
-  font-size: 82px;
-}
 
 /*p#UCRChessClubHeader { 
 	position: fixed;
